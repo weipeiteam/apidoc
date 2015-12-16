@@ -1,0 +1,27 @@
+{
+  "name": "微配接口文档",
+  "version": "2.1.0",
+  "description": "2.1版本接口文档",
+  "title": "微配2.1版本接口文档",
+  "url" : "http://api.dev.weipei.cc/dev/v1/",
+  "sampleUrl" : "http://api.dev.weipei.cc/dev/v1/",
+  "header": {
+    "title": "My own header title",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "My own footer title"
+  },
+  "order": [
+    "getToken",
+    "login"
+  ],
+  "template": {
+    "forceLanguage":"zh",
+    "withCompare": true,
+    "withGenerator": true,
+    "jQueryAjaxSetup":{"headers":{"Authorization":"de6821a970634cb19619b1023ebdfb82b1ae2f05"},
+                                        "contentType": ""
+                                       }
+  }
+}
